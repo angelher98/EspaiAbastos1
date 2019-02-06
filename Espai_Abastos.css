@@ -1,0 +1,457 @@
+/* Creado por Ángel Hernandez Ortiz. Copyright Espai Abastos, todos los derechos reservados. Última modificación 03/02/2019 */
+
+body{
+    background-color: white;
+    font-family: Roboto, Arial, sans-serif;
+    margin-top: 1px;
+    background-color: #D7F9F6;
+}
+
+header{
+    border: darkblue 5px solid;
+    background: url(img/marble.jpg);
+    
+}
+
+h1.inicio{  
+    font-size: 170%;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    color: darkblue;
+    float: left;
+}
+
+
+p.inicio{
+    float: center;
+}
+
+img.logo{
+    width: 6%;
+    height: 6%;
+    margin-left: 26%;
+}
+
+p.sociales{
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -120px;
+    margin-right: 6%;
+    padding-right: 2%;
+    margin-left: 77%;
+    background-color: white;
+    border: black 2px solid;
+    letter-spacing: -1px;
+}
+
+img.twitter{
+    width: 20px;
+    height: 20px;
+}
+
+img.facebook{
+    width: 20px;
+    height: 20px;
+}
+
+img.Abastos_Blog{
+    width: 20px;
+    height: 20px;
+}
+
+a.social_links{
+    color: blue;
+    text-decoration:none;
+}
+
+a.social_links:hover{
+    background-color: #2ECCFA;
+    color: white;
+
+}
+
+a.inicio{
+    color: darkblue;
+    text-decoration:none;
+}
+
+nav{
+	margin: 30px auto;
+    background: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    border: black 5px solid;
+    background-color: #21177F;
+    
+}
+
+ul.navegacion1 > li{
+	position: relative;
+    display: inline-block;
+    margin-left: 17%;
+    
+}
+
+ul.navegacion1 > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: sans-serif;
+    text-decoration: none;
+}
+
+ul.navegacion1 li a:hover{
+	color: #CE7D35;
+}
+
+ul.navegacion2{
+	position: absolute;
+	background-color: #21177F;
+	width: 120%;
+	visibility: hidden;
+    border: black 3px solid;
+    z-index: 2;
+}
+
+p.navega1{
+    margin-top: -3px;
+    margin-right: -3px;
+    margin-left: -43px;
+    padding: 0;
+    border: black 3px solid;
+}
+
+p.navega2{
+    margin-top: -19px;
+    margin-bottom: -2px;
+    margin-right: -3px;
+    margin-left: -43px;
+    padding: 0;
+    border: black 3px solid;
+}
+
+p.navega3{
+    padding: 0;
+    border: black 3px solid;
+    margin-right: -3px;
+    margin-left: -43px;
+    margin-top: -3px;
+}
+
+p.navega4{
+    padding: 0;
+    border: black 3px solid;
+    margin-right: -3px;
+    margin-left: -43px;
+    margin-top: -19px;
+}
+
+p.navega5{
+    padding: 0;
+    border: black 3px solid;
+    margin-right: -3px;
+    margin-left: -43px;
+    margin-top: -19px;
+    margin-bottom: -5px;
+}
+
+ul.navegacion2 li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+
+}
+
+ul.navegacion1 li:hover ul.navegacion2{
+	visibility: visible;
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: #0A016A 2px solid;
+    margin-bottom: 0px;
+    margin-left: -2%;
+    margin-right: -2%;
+    background-color: white;
+    z-index: 20;
+}
+
+main{
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: -10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+    z-index: -1;
+}
+/* Todas las paginas deben compartir todos estos parametros */
+
+/* A partir de aqui es ¿Quienes somos?*/
+
+section.conocenos{
+    background-image:url(img/background1.png);
+    background-size: 100% 250%;
+    margin-top: -25px;
+    margin-left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+img.gente{
+    height: 300px;
+    margin: 2%;
+    margin-left: 70%;
+}
+
+h1.conocenos{
+    position: absolute;
+    top: 27%;
+    right: 36%;
+    font-size: 135%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+p.gente{
+    position: absolute;
+    top: 47%;
+    right: 33%;
+}
+
+a.boton_solicitud1{
+    text-transform: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration:none;
+    border: black 2px solid;
+    border-top: #823A4D solid;
+    border-left: #823A4D solid;
+    border-radius: 150%;
+    background-color: #823A4D;
+    padding: 30px;
+}
+
+a.boton_solicitud1:hover{
+    background-color: #EF3EAB;
+    border: black 2px solid;
+    border-bottom: #823A4D solid;
+    border-right: #823A4D solid;
+}
+
+p.quienes_somos{
+    margin-right: 40%;
+}
+
+img.ies_abastos{
+    float: right;
+    width: 25%;
+    height: 25%;
+    margin-right: 5%;
+}
+
+img.ies_abastos:hover{
+    width: 35%;
+    height: 35%;
+    margin-right: 0px;
+    margin-top: -50px;
+}
+
+article.que_hacemos{
+    padding-bottom: 5%;
+}
+
+h1.que_hacemos{
+    text-align: right;
+    font-size: 180%;
+}
+
+p.que_hacemos{
+    text-align: right;
+    margin-left: 40%;
+}
+
+object.video1{
+    float: left;
+    width: 435px; 
+    height:250px;
+    margin-left: 5%;
+}
+
+a.mapa_main{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+a.mapa_main:hover{
+    background-color: red;
+    color: white;
+}
+
+/* A partir de aqui es mapa_espacios*/
+
+article.mapa_espacios{
+    margin-left: 9%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    z-index: 1;
+}
+
+img.mapa_espacios{
+    width: 90%;
+    height: 90%;
+}
+
+p.salon_actos_mapa{
+    z-index: 20;
+    position: absolute;
+    top: 82%;
+    right: 44%;
+}
+
+img.salon_actos_mapa{
+    width: 105px;
+    height: 73px;
+    border: darkblue 4px solid;
+}
+
+img.salon_actos_mapa:hover{
+    width: 145px;
+    height: 113px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 13%;
+}
+
+p.cafeteria_mapa{
+    z-index: 20;
+    position: absolute;
+    top: 63%;
+    right: 63%;
+}
+
+img.cafeteria_mapa{
+    width: 105px;
+    height: 73px;
+    border: darkblue 4px solid;
+}
+
+img.cafeteria_mapa:hover{
+    width: 145px;
+    height: 113px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 13%;
+}
+
+p.sala_semipresencial_mapa{
+    z-index: 20;
+    position: absolute;
+    top: 86%;
+    right: 67%;
+}
+
+img.sala_semipresencial_mapa{
+    width: 105px;
+    height: 73px;
+    border: darkblue 4px solid;
+}
+
+img.sala_semipresencial_mapa:hover{
+    width: 145px;
+    height: 113px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 13%;
+}
+
+p.sala_informatica_mapa{
+    z-index: 20;
+    position: absolute;
+    top: 100%;
+    right: 77%;
+}
+
+img.sala_informatica_mapa{
+    width: 105px;
+    height: 73px;
+    border: darkblue 4px solid;
+}
+
+img.sala_informatica_mapa:hover{
+    width: 145px;
+    height: 113px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 13%;
+}
+
+/* A partir de aqui es galeria_espacios*/
+
+article.galeria{
+    float: left;
+    border: 4px dashed #21177F;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: -10px;
+    background-color: #D7F9F6;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+a.galeria{
+    text-decoration: none;
+    color: #21177F;
+}
+
+h1.galeria{
+    margin-left: 0px;
+    font-size: 170%;
+}
+
+img.galeria{
+    width: 370px;
+    height: 270px;
+    border: 5px black solid;
+    border-radius: 30px;
+}
+
+footer.galeria{
+    position: absolute;
+    top: 120%;
+    right: 2%;
+    width: 100%;
+}
+
+main.galeria{
+    position: absolute;
+    z-index: -2;
+    width: 89%;
+    height: 90%;
+}
