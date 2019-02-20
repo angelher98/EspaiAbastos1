@@ -1,4 +1,4 @@
-/* Creado por Ángel Hernandez Ortiz. Copyright Espai Abastos, todos los derechos reservados. Última modificación 03/02/2019 */
+/* Creado por Ángel Hernandez Ortiz. Copyright Espai Abastos, todos los derechos reservados. Última modificación 20/02/2019 */
 
 body{
     background-color: white;
@@ -210,10 +210,11 @@ main{
 /* A partir de aqui es ¿Quienes somos?*/
 
 section.conocenos{
-    background-image:url(img/background1.png);
+    background-image:url(img/squares.jpg);
     background-size: 100% 250%;
     margin-top: -25px;
     margin-left: 0px;
+    
     width: 100%;
     z-index: 1;
 }
@@ -228,7 +229,7 @@ h1.conocenos{
     position: absolute;
     top: 27%;
     right: 36%;
-    font-size: 135%;
+    font-size: 145%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 1;
 }
@@ -242,27 +243,35 @@ p.gente{
 a.boton_solicitud1{
     text-transform: none;
     font-size: 150%;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    letter-spacing: 1px;
     text-decoration:none;
     border: black 2px solid;
-    border-top: #823A4D solid;
-    border-left: #823A4D solid;
+    border-top: #262B7C solid;
+    border-left: #262B7C solid;
     border-radius: 150%;
-    background-color: #823A4D;
+    background-color: #262B7C;
     padding: 30px;
 }
 
 a.boton_solicitud1:hover{
-    background-color: #EF3EAB;
+    background-color: #F9F9FB;
+    color: black;
     border: black 2px solid;
-    border-bottom: #823A4D solid;
-    border-right: #823A4D solid;
+    border-bottom: white solid;
+    border-right: white solid;
+}
+
+h1.quienes_somos{
+    margin-left: 17%;
+    font-size: 180%;
+    color: #191994;
 }
 
 p.quienes_somos{
-    margin-right: 40%;
+    margin-right: 50%;
+    text-align: center;
 }
 
 img.ies_abastos{
@@ -281,16 +290,20 @@ img.ies_abastos:hover{
 
 article.que_hacemos{
     padding-bottom: 5%;
+    
 }
 
 h1.que_hacemos{
-    text-align: right;
+    text-align: justify;
     font-size: 180%;
+    margin-left: 69%;
+    color: #191994;
+    
 }
 
 p.que_hacemos{
-    text-align: right;
-    margin-left: 40%;
+    text-align: center;
+    margin-left: 53%;
 }
 
 object.video1{
@@ -312,6 +325,10 @@ a.mapa_main:hover{
     color: white;
 }
 
+video.video_present{
+    float: left;
+    margin-left: 3%; 
+}
 /* A partir de aqui es mapa_espacios*/
 
 article.mapa_espacios{
@@ -454,4 +471,297 @@ main.galeria{
     z-index: -2;
     width: 89%;
     height: 90%;
+}
+
+/* A partir de aqui es eleccion_espacios y eleccion_contacto*/
+
+section.eleccion_fondo{
+    background-image: url(img/eleccion.jpeg);
+}
+
+h1.galeria2{
+    font-size: 150%;
+    color: white;
+    margin-left: 4%;
+    margin-top: -1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+a.galeria2{
+    text-decoration: none;
+    color: white;
+}
+
+a.galeria2:hover{
+    color: #CE7D35;
+}
+
+/* A partir de aqui es solicitud*/
+
+article.solicitud1{
+    background-image: url();
+}
+
+form.solicitud{
+    background-color: white;
+}
+
+h2{
+    font-size: 115%;
+}
+
+a.mapa_main1{
+    font-weight: bold;
+    color: #21177F;
+    text-decoration: none;
+    font-size: 100%;
+    border: 3px #21177F solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+a.mapa_main1:hover{
+    background-color: #21177F;
+    color: white;
+    border: 5px black solid;
+}
+
+form.solicitud{
+    background-image: url(img/solicitud.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    border: #D7F9F6 7px solid;
+    border-radius: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 3%;
+    margin-right: 30%;
+    font-weight: 600;
+}
+
+button.final{
+    margin-left: 20%;
+    font-size: 110%;
+    background-color: #D7F9F6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button.final:hover{
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    color: #CE7D35;
+}
+
+img.abastoss{
+    position: absolute;
+    top: 28%;
+    right: 6%;
+    width: 24%;
+    height: 40%;
+}
+
+/* A partir de aqui es ubicacion*/
+
+article.direccion{
+    background-color: #8258FA;
+    border-radius: 2%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    padding-left: 4%;
+    margin-bottom: 1%;
+    text-align: justify;
+    margin-left: 80%;
+    margin-bottom: 20%;
+}
+
+iframe.abastos{
+    position: absolute;
+    top: 28%;
+    right: 42%;
+    width: 50%;
+    height: 45%;
+}
+
+article.horario{
+    margin-top: -7%;
+    margin-left: 21%;
+    background-color: #21177F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: white;
+    margin-right: 63%;
+}
+
+span{
+    font-weight: bold;
+    margin-right: 1%;
+    letter-spacing: 1px;
+}
+
+/* A partir de aqui es otros_contactos*/
+
+
+span.important{
+    color: #B40404;
+}
+
+article.otroscont{
+    font-size: 150%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 35%;
+    background-image: url(img/black.jpg);
+    border-radius: 3%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 3%;
+}
+
+article.red2{
+    margin-left: 28%;
+    margin-right: -20%;
+    margin-top: 6%;
+    margin-bottom: 20%;
+}
+
+p.red2{
+    float: left;
+}
+
+img.Abastos_Blog2{
+    height: 43%;
+    width: 43%;
+    border-radius: 50%;
+}
+
+img.facebook2{
+    height: 27%;
+    width: 27%;
+    margin-left: -45%;
+}
+
+
+img.twitter2{
+    height: 23%;
+    width: 23%;
+    border-radius: 50%;
+}
+
+/* A partir de aqui es cafeteria, sala_informatica etc*/
+
+img.cafeteriamain{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-bottom: 9%;
+}
+
+main.espacios{
+    background-image: url(img/background-espacio.jpg);
+    border: #2E2E2E 20px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #2E2E2E #6E6E6E #6E6E6E #2E2E2E;
+}
+
+p.textespacio{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-align: justify;
+    background-color: #E6E6E6;
+    box-shadow: 5px 10px #888888;
+    border: 2px black solid;
+    padding: 10px;  
+}
+
+span.esp{
+    letter-spacing: 1px;
+    word-spacing: -1px;
+}
+
+section.pieesp{
+    text-align: center;
+    font-size: 100%;
+    font-family: monospace;
+    margin-right: 71%;
+    margin-left: 2%;
+    margin-top: -7%;
+    background-color: #D0A9F5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: black 3px solid;
+    border-color: black blue blue black;
+}
+
+section.pieesp p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+section.pieesp h1{
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+a.boton_solicitudX{
+    text-transform: none;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #21177F;
+    letter-spacing: 1px;
+    text-decoration:none;
+    border: black 8px groove;
+    border-top: #262B7C solid;
+    border-left: #262B7C solid;
+    border-radius: 100%;
+    background-color: #D7F9F6;
+    padding: 30px;
+    float: right;
+    margin-top: -19%;
+    margin-right: 10%;
+
+}
+
+a.boton_solicitudX:hover{
+    background-color: #81BEF7;
+    color: white;
+    border: darkgray 2px inset;
+    border-top: #C8C8C8 inset;
+    border-left: #C8C8C8 inset;
+}
+
+a.boton_solicitudXY{
+    text-transform: none;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3E8237;
+    letter-spacing: 1px;
+    text-decoration:none;
+    border: black 8px groove;
+    border-top: #262B7C solid;
+    border-left: #262B7C solid;
+    background-color: #A9F5BC;
+    padding: 30px;
+    float: right;
+    margin-top: -9%;
+    margin-right: 10%;
+
+}
+
+a.boton_solicitudXY:hover{
+    background-color: #0C4B05;
+    color: white;
+    border: darkgray 2px inset;
+    border-top: #C8C8C8 inset;
+    border-left: #C8C8C8 inset;
 }

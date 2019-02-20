@@ -30,7 +30,50 @@
     </nav>
 
 <main>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet nulla corporis voluptatibus iure illo ut quibusdam! Aliquid cumque, cum, explicabo error non ipsa in vel excepturi mollitia, maxime repudiandae!</p>
+    <section class="solicitud">
+        <article class="solicitud1"> <img class="abastoss" src="../img/abastoss.jpg" alt="abastoss">
+                <form class="solicitud" action="solicitud.php" method="get">
+                        <h1 class="solicitud">Datos del Interesado</h1>
+                        <p>El cliente: <input type="text" name="nombre" placeholder="Nombre y apellidos" size="50"> <input type="text" name="DNI_cliente" placeholder="DNI" size="40" maxlength="9"></p>
+                        <p>Sexo:
+                                <input type="radio" name="hm" value="h"> Hombre
+                                <input type="radio" name="hm" value="m"> Mujer
+                        </p>
+                        <p>Fecha de nacimiento: <input type="date" name="fecha" size="20">
+                        <p>Correo Electrónico: <input type="text" name="correo_interesado" placeholder="Correo electrónico" size="50"></p>
+                        <h2>Interesado en:</h2>
+                        <p>
+                            <input type="radio" name="ac" value="a"> Alquilar
+                            <input type="radio" name="ac" value="c"> Comprar
+                        </p>
+                        <p>Elige establecimiento:</p>
+                        <p>
+                            <input type="radio" name="es" value="actos"> Salón de actos
+                            <input type="radio" name="es" value="cafe"> Cafeteria
+                            <input type="radio" name="es" value="semi"> Aula Semipresencial
+                            <input type="radio" name="es" value="infor2"> Aula Informatica 2º Piso <a class="mapa_main1" href="../espacios/galeria_espacios.html" target="_blank"> PULSE AQUÍ PARA VER LOS ESPACIOS</a>
+                        </p>
+                </form>
+        </article>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="solicitud1">
+        <article class="solicitud">
+            <form class="solicitud" action="solicitud.php" method="get">
+                <h1 class="solicitud">Datos Adicionales</h1>
+                <p><textarea name="texto" rows="10" cols="125" placeholder="Explique aqui datos a tener en consideración con su petición"></textarea></p>
+                <p>
+                    <button class="final">
+                        <img src="../img/check.png" alt="check" width="32" height="32" style="vertical-align: middle">
+                        Confirmar y pasar a métodos de pago
+                        <img src="../img/check.png" alt="check" width="32" height="32" style="vertical-align: middle">
+                    </button>
+                </p>
+            </from>
+        </article>
+    </section> 
 </main>
 
 
